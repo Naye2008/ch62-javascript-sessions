@@ -43,9 +43,20 @@
   <main class="container text-center mt-5">
     <section class="row align-items-center justify-content-center" id="main-content">
       <!-- logo -->
-      <figure class="col-lg-5 col-9">
-        <img class="img-fluid rounded" src="./public/images/dino.jpg" alt="Dinosaurio rex escribiendo código" />
-      </figure>
+       <section class="mt-4">
+  <h3>¿Cómo te sientes hoy?</h3>
+  
+  <button onclick="cambiarEstado('feliz')" class="btn btn-success m-2">Feliz 😀</button>
+<button onclick="cambiarEstado('triste')" class="btn btn-secondary m-2">Triste 😢</button>
+
+</section>
+
+<figure class="col-lg-5 col-9">
+  <img id="imagenDino" class="img-fluid rounded" 
+       src="./public/images/dino.jpg" 
+       alt="Dino" />
+</figure>
+
       <!-- principal title -->
       <div class="col-lg-3 col-12 text-warning">
         <h1 id="title">JS 03</h1>
